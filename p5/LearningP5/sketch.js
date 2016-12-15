@@ -1,7 +1,8 @@
 var x = 0;
 
 function setup() {
-	background(100);
+	var myCanvas = createCanvas(600,400);
+	myCanvas.parent('myContainer');
 }
 
 function draw() {
