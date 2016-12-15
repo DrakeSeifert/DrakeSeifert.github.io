@@ -22,13 +22,13 @@ function keyPressed() {
 	} else if (keyCode === LEFT_ARROW) {
 		s.dir(-1, 0);
 	}*/
-	if (keyCode === 'w') {
+	if (keyCode == 'w') {
 		s.dir(0, -1);
-	} else if (keyCode === 's') {
+	} else if (keyCode == 's') {
 		s.dir(0, 1);
-	} else if (keyCode === 'd') {
+	} else if (keyCode == 'd') {
 		s.dir(1, 0);
-	} else if (keyCode === 'a') {
+	} else if (keyCode == 'a') {
 		s.dir(-1, 0);
 	}
 }
