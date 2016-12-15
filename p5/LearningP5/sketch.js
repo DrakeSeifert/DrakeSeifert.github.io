@@ -1,8 +1,9 @@
 var x = 0;
 
 function setup() {
-	var myCanvas = createCanvas(600,400);
-	myCanvas.parent('myContainer');
+	createCanvas(600,400)
+	//var myCanvas = createCanvas(600,400);
+	//myCanvas.parent('myContainer');
 }
 
 function draw() {
