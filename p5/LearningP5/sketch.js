@@ -1,4 +1,4 @@
-var x = 0;
+//var x = 0;
 
 function setup() {
 	createCanvas(600,400);
@@ -9,7 +9,7 @@ function drawCat(img) {
 	image(img, 0, 0);
 }
 
-function draw() {
+//function draw() {
 	//ellipse(x, height/2, 20, 20);
 	//x += 1;
-}
+//}
