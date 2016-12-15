@@ -1,7 +1,7 @@
 //var x = 0;
 
 function setup() {
-	createCanvas(600,400);
+	createCanvas(2400,1600);
 	loadImage('cat.jpg', drawCat);
 }
 
