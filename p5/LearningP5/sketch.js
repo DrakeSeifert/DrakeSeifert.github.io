@@ -2,6 +2,7 @@ var x = 0;
 
 function setup() {
 	createCanvas(600,400);
+	background(150);
 	//var myCanvas = createCanvas(600,400);
 	//myCanvas.parent('myContainer');
 }
